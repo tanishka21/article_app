@@ -12,7 +12,9 @@ class FavoritesView extends StatelessWidget {
     final controller = Get.find<HomeController>();
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.white,
         title: Text(
           'Favorite Articles',
           style: GoogleFonts.podkova(fontWeight: FontWeight.bold, fontSize: 35),
